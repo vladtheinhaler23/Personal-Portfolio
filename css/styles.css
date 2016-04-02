@@ -5,17 +5,7 @@ body {
 
 /*MENU BAR*/
 
-/*.index-h1 {
-  text-align: center;
-  font-family: "Helvetica Narrow", sans-serif;
-  font-weight: lighter;
-}
-.index-h2 {
-  text-align: center;
-  font-family: "Helvetica Narrow", sans-serif;
-  font-weight: lighter;
-}*/
-ul{
+/*ul{
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -41,7 +31,7 @@ li {
 }
 .menu-bar:hover, .menu-bar:active {
   background-color: #888d8c;
-}
+}*/
 /*JUMBOTRON*/
 .jumbotron {
   background-color: #FFFFFF;
