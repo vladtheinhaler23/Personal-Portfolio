@@ -1,0 +1,153 @@
+/*MENU BAR*/
+
+.index-h1 {
+  text-align: center;
+  font-family: "Helvetica Narrow", sans-serif;
+  font-weight: lighter;
+}
+.index-h2 {
+  text-align: center;
+  font-family: "Helvetica Narrow", sans-serif;
+  font-weight: lighter;
+}
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  margin-bottom: 25px;
+
+}
+li {
+  display: inline;
+}
+.menu-bar {
+  display: block;
+  padding: 8px;
+  background-color: #dddddd;
+}
+.menu-bar:link, .menu-bar:visited {
+  background-color: #812f2f;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+.menu-bar:hover, .menu-bar:active {
+  background-color: #888d8c;
+}
+/*carousel*/
+/*#Carousel {
+  min-height: 500px;
+  max-height: 300px;
+}*/
+#item1 {
+  max-height: 400px;
+}
+.firstSlide {
+    background-image: url("/portland_skyline.jpg");
+    webkit-background-size: cover;
+    background: cover;
+}
+
+/*front-content*/
+
+.front-content {
+  margin-left: 50px;
+  margin-right: 50px;
+  text-align: left;
+  text-align: justify;
+}
+
+/*GLYPHICONS*/
+
+.glyphicon {
+  font-size: 3em;
+  float: right;
+}
+
+/*text-blocks*/
+
+.text-blocks {
+  display: inline-block;
+  border: solid;
+  border-color: black;
+  border-width: 2px;
+  background-color: #D5D9D8;
+  min-height: 200px;
+  max-width: 370px;
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/*about-me*/
+
+.about-me-img {
+  max-height: 200px;
+  width: auto;
+}
+.about-me-title{
+  text-align: left;
+}
+.about-me-row{
+  margin-left: 50px;
+  margin-right: 50px;
+  text-align: left;
+  text-align: justify;
+  border: solid;
+  border-width: medium;;
+  border-color: black;
+  padding: 20px;
+  margin-top: 50px;
+
+}
+.about-me-content {
+  text-align: center;
+  padding: 20px;
+
+}
+.about-me-pics {
+  margin-top: 50px;
+
+}
+
+/*projects*/
+
+.projects-title {
+  text-align: left;
+  padding-bottom: 50px;
+}
+
+.projects-row {
+  margin-left: 50px;
+  margin-right: 100px;
+  text-align: left;
+  text-align: justify;
+  padding: 20px;
+  margin-top: 50px;
+}
+.projects-text-blocks {
+  display: inline-block;
+  border: solid;
+  border-color: black;
+  border-width: 2px;
+  background-color: #D5D9D8;
+  min-height: 300px;
+  max-width: 306px;
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.projects-img {
+    max-height: 100px;
+    width: auto;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+.projects-links {
+  float: none;
+}
