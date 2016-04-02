@@ -1,6 +1,11 @@
+/*PAGE STYLING*/
+body {
+  background-color: #007EA7;
+}
+
 /*MENU BAR*/
 
-.index-h1 {
+/*.index-h1 {
   text-align: center;
   font-family: "Helvetica Narrow", sans-serif;
   font-weight: lighter;
@@ -9,7 +14,7 @@
   text-align: center;
   font-family: "Helvetica Narrow", sans-serif;
   font-weight: lighter;
-}
+}*/
 ul{
   list-style-type: none;
   margin: 0;
@@ -37,18 +42,11 @@ li {
 .menu-bar:hover, .menu-bar:active {
   background-color: #888d8c;
 }
-/*carousel*/
-/*#Carousel {
-  min-height: 500px;
-  max-height: 300px;
-}*/
-#item1 {
-  max-height: 400px;
-}
-.firstSlide {
-    background-image: url("/portland_skyline.jpg");
-    webkit-background-size: cover;
-    background: cover;
+/*JUMBOTRON*/
+.jumbotron {
+  background-color: #FFFFFF;
+  min-height: 400px;
+  opacity: 0.50;
 }
 
 /*front-content*/
